@@ -1,11 +1,22 @@
 package entities;
 
-import java.util.Scanner;
-
 public class AdressePostale {
-    public int numeroRue;
-    public String libelleRue;
-    public int codePostale;
-    public String Ville;
+
+    //Déclaration des variables
+    int numeroRue;
+    String libelleRue;
+    String codePostale;
+    String Ville;
+
+    AdressePostale (int numeroRue, String libelleRue, String codePostale, String Ville) {
+        this.numeroRue = numeroRue;
+        this.libelleRue = libelleRue;
+        this.codePostale = codePostale;
+        this.Ville = Ville;
+
+
+    };
 }
+
+
 
