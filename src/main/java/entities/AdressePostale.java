@@ -8,14 +8,17 @@ public class AdressePostale {
     String codePostale;
     String Ville;
 
-    AdressePostale (int numeroRue, String libelleRue, String codePostale, String Ville) {
+    //Constructeur
+
+
+    public AdressePostale(int numeroRue, String libelleRue, String codePostale, String ville) {
         this.numeroRue = numeroRue;
         this.libelleRue = libelleRue;
         this.codePostale = codePostale;
-        this.Ville = Ville;
+        Ville = ville;
+    }
 
-
-    };
+    ;
 }
 
 

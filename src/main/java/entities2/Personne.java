@@ -12,9 +12,9 @@ public class Personne {
         this.prenom = prenom;
     }
 
-    public Personne(String nom, String prenom, AdressePostale Adresse) {
+    public Personne(String nom, String prenom, AdressePostale adresse) {
         this.nom = nom;
         this.prenom = prenom;
-        this.Adresse = Adresse;
+        Adresse = adresse;
     }
 }
