@@ -15,5 +15,21 @@ public class TestPersonne {
         Personne p1 = new Personne("Doe", "John");
         Personne p2 = new Personne("Doe", "Jane", a2);
 
+        p1.afficher();
+        p2.afficher();
+
+        p1.setNom("Sidibé");
+        p1.setPrenom("Abdouramane");
+        p1.setAdresse(a2);
+        p1.afficher();
+
+        System.out.println(p1.getPrenom());
+        System.out.println(p1.getNom());
+        System.out.println(p1.getAdresse());
+
+        AdressePostale.nbDepartements =102;
+        System.out.println(AdressePostale.nbDepartements);
     }
-}
+    }
+
+

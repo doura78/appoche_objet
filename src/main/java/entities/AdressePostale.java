@@ -10,6 +10,7 @@ public class AdressePostale {
 
     //Constructeur
 
+    static int nbDepartements = 101;
 
     public AdressePostale(int numeroRue, String libelleRue, String codePostale, String ville) {
         this.numeroRue = numeroRue;
@@ -18,7 +19,13 @@ public class AdressePostale {
         Ville = ville;
     }
 
-    ;
+    @Override
+    public String toString() {
+        return "numeroRue=" + numeroRue +
+                ", libelleRue='" + libelleRue + '\'' +
+                ", codePostale='" + codePostale + '\'' +
+                ", Ville='" + Ville ;
+    }
 }
 
 
