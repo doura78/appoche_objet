@@ -1,5 +1,4 @@
-package entities;
-
+import entities.AdressePostale;
 import entities2.Personne;
 
 public class TestPersonne {
@@ -27,8 +26,8 @@ public class TestPersonne {
         System.out.println(p1.getNom());
         System.out.println(p1.getAdresse());
 
-        AdressePostale.nbDepartements =102;
-        System.out.println(AdressePostale.nbDepartements);
+        AdressePostale.setNbDepartements(102);
+        System.out.println(AdressePostale.getNbDepartements());
     }
     }
 
