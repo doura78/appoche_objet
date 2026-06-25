@@ -22,6 +22,10 @@ public class CompteTaux extends Compte {
         // et on ajoute le taux
         return super.toString() + ", tauxRemuneration=" + tauxRemuneration;
     }
+
+    public double getTauxRemuneration() {
+        return tauxRemuneration;
+    }
 }
 
 //extends Compte : CompteTaux hérite de Compte.
