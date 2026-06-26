@@ -1,4 +1,4 @@
-package fr.diginamic.entites;
+package entites;
 
 public class Theatre {
 
