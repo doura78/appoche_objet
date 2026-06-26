@@ -1,4 +1,4 @@
-import fr.diginamic.Theatre;
+import fr.diginamic.entites.Theatre;
 
 public class TestTheatre {
 
