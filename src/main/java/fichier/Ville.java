@@ -12,7 +12,7 @@ public class Ville {
         this.nom = nom;
         this.codeDpt = codeDpt;
         this.nomRegion = nomRegion;
-        populationTotale = populationTotale;
+        this.populationTotale = populationTotale;
     }
 
     @Override
