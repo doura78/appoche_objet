@@ -18,6 +18,10 @@ public class TestVilles {
 
         Ville villePlusPeuplee = villes.get(0);
 
+        // for (Ville v : villes){
+        // if (v.getNbHabitants() > villPlusPeuplee.getNbHabitants()){
+        //villePlusPeuplee = v;}}
+
         for (int i = 1; i < villes.size(); i++) {
             if (villes.get(i).getNbHabitants() > villePlusPeuplee.getNbHabitants()) {
                 villePlusPeuplee = villes.get(i);
